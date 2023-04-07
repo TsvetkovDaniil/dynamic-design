@@ -1,0 +1,21 @@
+.navbar {
+  font-weight: bold;
+}
+
+.navbarInner {
+}
+
+.nav {
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(1, 201, 1);
+}
