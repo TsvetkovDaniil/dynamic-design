@@ -7,7 +7,7 @@ const Header = ({ refs, bgColor }) => {
       <nav className={classes.navbarInner}>
         <ul className={classes.nav}>
           <a href="/" className={classes.btn}>
-            Rosdistant
+            Росдистант
           </a>
           {refs.map((r) => (
             <a key={r.ref} href={r.ref} className={classes.btn}>

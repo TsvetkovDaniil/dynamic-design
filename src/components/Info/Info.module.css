@@ -1,0 +1,14 @@
+.info {
+  padding: 30px 50px;
+}
+
+.infoSection {
+  margin-top: 20px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 20px 0px;
+}
+
+.input {
+  padding: 20px;
+}
