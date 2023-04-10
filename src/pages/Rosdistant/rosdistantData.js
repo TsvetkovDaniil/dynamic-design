@@ -1,6 +1,7 @@
 export const rsData = {
   refs: [
-    { ref: '/', text: 'Мое расписание' },
+    { ref: '/about', text: 'Росдистант' },
+    { ref: '/schedule', text: 'Мое расписание' },
     { ref: '/', text: 'Мои курсы' },
     { ref: '/', text: 'Мои задачи' },
     { ref: '/', text: 'Учебный план' },

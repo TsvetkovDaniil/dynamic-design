@@ -1,21 +1,24 @@
 import React from 'react'
-import classes from './Rosdistant.module.css'
-import Header from '../../components/Header/Header'
-import Info from '../../components/Info/Info'
+import { BrowserRouter } from 'react-router-dom'
 import { rsData } from './rosdistantData'
+import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import AppRouter from '../../components/AppRouter'
+import { rosRoutes } from './router/rosRoutes'
 
 const Rosdistant = () => {
   return (
-    <div className={classes.rosdistant}>
-      <Header refs={rsData.refs} bgColor={rsData.color} />
-      <Info input={rsData.input} color={rsData.color} name={rsData.name} />
-      <Footer
-        refs={rsData.refs}
-        color={rsData.color}
-        name={rsData.name}
-        contacts={rsData.contacts}
-      />
+    <div>
+      <BrowserRouter>
+        <Header refs={rsData.refs} bgColor={rsData.color} />
+        <AppRouter routes={rosRoutes} />
+        <Footer
+          refs={rsData.refs}
+          color={rsData.color}
+          name={rsData.name}
+          contacts={rsData.contacts}
+        />
+      </BrowserRouter>
     </div>
   )
 }

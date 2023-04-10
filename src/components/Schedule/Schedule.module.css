@@ -1,0 +1,20 @@
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableRow {
+  background-color: rgb(104, 223, 173);
+}
+
+.tableHeader {
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: center;
+}
+
+.tableData {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
