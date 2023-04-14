@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.card:hover {
+  background-color: #3073ee7a;
+  cursor: pointer;
+}
+
+.card:focus {
+  background-color: #3073ee;
+}
+
+.gradient {
+  display: block;
+  width: 130px;
+  height: 130px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
+.themeName {
+  font-weight: bold;
+  word-wrap: break-word;
+}

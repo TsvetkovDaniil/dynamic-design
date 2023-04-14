@@ -4,6 +4,10 @@
   font-family: 'custom_body_font', sans-serif;
 }
 
+html {
+  background-color: var(--template-color);
+}
+
 #root {
   display: flex;
   flex-direction: column;
@@ -11,5 +15,5 @@
 
 .App {
   margin: 30px 200px;
-  box-shadow: 0px 0px 20px black;
+  box-shadow: 0px 0px 20px var(--shadow-color);
 }

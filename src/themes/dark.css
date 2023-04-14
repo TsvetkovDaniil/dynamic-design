@@ -1,0 +1,19 @@
+html[data-theme='dark'] {
+  --spec-background-color: #000000;
+  --spec-text-color: #e2e2e2;
+  --spec-border-color: #e2e2e2;
+
+  --spec-hover-background-color: #e2e2e2;
+  --spec-hover-text-color: #000000;
+  --spec-hover-shadow-color: #e2e2e2;
+
+  --template-color: #555555;
+  --background-color: #000000;
+  --extra-color: #6b6b6b;
+  --text-color: #e2e2e2;
+  --border-color: #e2e2e2;
+  --shadow-color: #e2e2e2;
+
+  --hover-color: #c0c0c086;
+  --active-color: #c0c0c0b4;
+}

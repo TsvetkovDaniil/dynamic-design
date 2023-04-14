@@ -1,11 +1,13 @@
 .info {
   padding: 30px 50px;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .infoSection {
   margin-top: 20px;
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
+  border-top: 4px solid var(--border-color);
+  border-bottom: 4px solid var(--border-color);
   padding: 20px 0px;
 }
 

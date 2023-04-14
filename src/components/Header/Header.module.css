@@ -1,21 +1,28 @@
 .navbar {
   font-weight: bold;
+  background-color: var(--spec-background-color);
 }
 
 .navbarInner {
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav {
+.refsNav {
+}
+
+.btnsNav {
+  padding: 20px;
 }
 
 .btn {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: var(--spec-text-color);
   padding: 30px;
 }
 
 .btn:hover {
-  background-color: white;
-  color: black;
+  background-color: var(--spec-hover-background-color);
+  color: var(--spec-hover-text-color);
 }

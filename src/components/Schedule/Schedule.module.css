@@ -1,20 +1,23 @@
 .schedule {
   width: 100%;
   border-collapse: collapse;
+  background-color: var(--background-color);
 }
 
 .tableRow {
-  background-color: rgb(104, 223, 173);
+  background-color: var(--extra-color);
 }
 
 .tableHeader {
-  border: 1px solid gray;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
   padding: 8px;
   text-align: center;
 }
 
 .tableData {
-  border: 1px solid #ccc;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
   padding: 8px;
   text-align: left;
 }

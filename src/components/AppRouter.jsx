@@ -13,7 +13,7 @@ const AppRouter = (props) => {
             element={<r.component />}
           />
         ))}
-        <Route key={'*'} path="*" element={<Navigate to={'/schedule'} />} />
+        <Route key={'*'} path="*" element={<Navigate to={'/about'} />} />
       </>
     </Routes>
   )

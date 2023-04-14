@@ -1,0 +1,19 @@
+html[data-theme='light'] {
+  --spec-background-color: #000000;
+  --spec-text-color: #ffffff;
+  --spec-border-color: #ffffff;
+
+  --spec-hover-background-color: #ffffff;
+  --spec-hover-text-color: #000000;
+  --spec-hover-shadow-color: #ffffff;
+
+  --template-color: #cccccc;
+  --background-color: #ffffff;
+  --extra-color: #c0c0c0;
+  --text-color: #000000;
+  --border-color: #000000;
+  --shadow-color: #000000;
+
+  --hover-color: #c0c0c086;
+  --active-color: #c0c0c0b4;
+}

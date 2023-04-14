@@ -9,7 +9,7 @@ const Footer = (props) => {
   )
 
   return (
-    <footer className={classes.footer} style={{ backgroundColor: props.color }}>
+    <footer className={classes.footer}>
       <div className={classes.refsTable}>
         {columnRefs.map((column, index) => (
           <ul className={classes.column} key={index}>

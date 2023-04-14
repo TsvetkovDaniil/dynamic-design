@@ -7,7 +7,7 @@ export const rsData = {
     { ref: '/', text: 'Учебный план' },
     { ref: '/', text: 'Зачетная книжка' },
   ],
-  color: 'rgb(22, 100, 216)',
+  // color: 'rgb(22, 100, 216)',
   contacts: {
     phone: '8-800-222-33-08',
     email: 'student@rosdistant.ru',
