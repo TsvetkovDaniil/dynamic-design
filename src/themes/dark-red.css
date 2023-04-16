@@ -1,0 +1,22 @@
+html[data-theme='dark-red'] {
+  --spec-background-color: #551a1a;
+  --spec-text-color: #e2e2e2;
+  --spec-border-color: #e2e2e2;
+
+  --spec-hover-background-color: #e2e2e2;
+  --spec-hover-text-color: #910e0e;
+  --spec-hover-shadow-color: #fa8383;
+
+  --template-color: #383838;
+  --background-color: #000000;
+  --extra-color: #8a2020;
+  --text-color: #e2e2e2;
+  --border-color: #e2e2e2;
+  --shadow-color: #e2e2e2;
+
+  --button-hover-color: #910e0e;
+  --button-active-color: #b34f4f;
+
+  --card-hover-color: #ff00002d;
+  --card-focus-color: #ff000052;
+}

@@ -11,12 +11,12 @@
 }
 
 .card:hover {
-  background-color: #3073ee7a;
+  background-color: var(--card-hover-color);
   cursor: pointer;
 }
 
 .card:focus {
-  background-color: #3073ee;
+  background-color: var(--card-focus-color);
 }
 
 .gradient {

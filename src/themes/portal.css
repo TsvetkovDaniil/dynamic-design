@@ -1,0 +1,22 @@
+html[data-theme='portal'] {
+  --spec-background-color: #24743f;
+  --spec-text-color: #e2e2e2;
+  --spec-border-color: #e2e2e2;
+
+  --spec-hover-background-color: #ffffff;
+  --spec-hover-text-color: #000000;
+  --spec-hover-shadow-color: #00ff55;
+
+  --template-color: #dbdbdb;
+  --background-color: #ffffff;
+  --extra-color: #5ece84;
+  --text-color: #000000;
+  --border-color: #24743f;
+  --shadow-color: #000000;
+
+  --button-hover-color: #2b8f4c;
+  --button-active-color: #299b4f;
+
+  --card-hover-color: #39b462c2;
+  --card-focus-color: #39b462;
+}

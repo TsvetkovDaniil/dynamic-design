@@ -1,0 +1,22 @@
+html[data-theme='rosdistant'] {
+  --spec-background-color: #1d77aa;
+  --spec-text-color: #e2e2e2;
+  --spec-border-color: #e2e2e2;
+
+  --spec-hover-background-color: #ffffff;
+  --spec-hover-text-color: #000000;
+  --spec-hover-shadow-color: #2bb1ff;
+
+  --template-color: #dbdbdb;
+  --background-color: #ffffff;
+  --extra-color: #2da7ee;
+  --text-color: #000000;
+  --border-color: #1d77aa;
+  --shadow-color: #000000;
+
+  --button-hover-color: #238cc9;
+  --button-active-color: #2596d8;
+
+  --card-hover-color: #1d76aa67;
+  --card-focus-color: #1d76aac7;
+}
