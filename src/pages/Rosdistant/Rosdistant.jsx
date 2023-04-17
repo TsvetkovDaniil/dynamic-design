@@ -6,8 +6,11 @@ import Footer from '../../components/Footer/Footer'
 import AppRouter from '../../components/AppRouter'
 import { rosRoutes } from './router/rosRoutes'
 import classes from './Rosdistant.module.css'
+import { useTheme } from '../../hooks/useTheme'
 
 const Rosdistant = () => {
+  useTheme('rosdistant')
+
   return (
     <div className={classes.rosdistant}>
       <div className={classes.body}></div>

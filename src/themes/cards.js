@@ -27,7 +27,7 @@ export const cards = [
   {
     name: 'portal',
     title: 'Образовательный портал ТГУ',
-    color1: '#24cc78',
-    color2: '#ffffff',
+    color1: '#24743f',
+    color2: '#299b4f',
   },
 ]

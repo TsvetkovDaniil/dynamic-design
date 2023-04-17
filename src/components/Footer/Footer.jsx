@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Footer.module.css'
+import { Link } from 'react-router-dom'
 
 const Footer = (props) => {
   const numberOfColumns = Math.ceil(props.refs.length / 3)
@@ -15,9 +16,9 @@ const Footer = (props) => {
           <ul className={classes.column} key={index}>
             {column.map((el) => (
               <li className={classes.listItem} key={index}>
-                <a className={classes.ref} key={index} href={el.ref}>
+                <Link className={classes.ref} key={index} to={el.ref}>
                   {el.text}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
