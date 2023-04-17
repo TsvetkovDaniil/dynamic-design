@@ -6,8 +6,11 @@ import AppRouter from '../../components/AppRouter'
 import Footer from '../../components/Footer/Footer'
 import { portalData } from './portalData'
 import { portalRoutes } from './router/portalRoutes'
+import { useTheme } from '../../hooks/useTheme'
 
 const Portal = () => {
+  useTheme('portal')
+
   return (
     <div className={classes.rosdistant}>
       <div className={classes.body}></div>

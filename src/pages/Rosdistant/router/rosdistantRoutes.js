@@ -1,9 +1,9 @@
-import About from '../pages/About/About'
+import Main from '../pages/Main/Main'
 import SchedulePage from '../pages/SchedulePage/SchedulePage'
-import ThemePage from '../pages/ThemePage/ThemePage'
+import Theme from '../../../components/Theme/Theme'
 
 export const rosdistantRoutes = [
-  { path: '/about', component: About, exact: true },
+  { path: '/main', component: Main, exact: true },
   { path: '/schedule', component: SchedulePage, exact: true },
-  { path: '/theme', component: ThemePage, exact: true },
+  { path: '/theme', component: Theme, exact: true },
 ]

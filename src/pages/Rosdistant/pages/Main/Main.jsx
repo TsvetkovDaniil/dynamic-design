@@ -1,12 +1,12 @@
 import React from 'react'
 import Info from '../../../../components/Info/Info'
 import { rsData } from '../../rosdistantData'
-import classes from './About.module.css'
+import classes from './Main.module.css'
 
 const About = () => {
   return (
     <div>
-      <Info color={rsData.color} name={rsData.name}>
+      <Info name={rsData.name}>
         <section className={classes.infoSection}>
           <h3 className={classes.header}>Информация для студентов</h3>
           <p className={classes.info}>

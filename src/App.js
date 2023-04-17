@@ -1,11 +1,11 @@
 import './App.css'
+import Portal from './pages/Portal/Portal'
 import Rosdistant from './pages/Rosdistant/Rosdistant'
-import { useTheme } from './hooks/useTheme'
 
 function App() {
   return (
     <div className="App">
-      <Rosdistant />
+      <Portal />
     </div>
   )
 }
