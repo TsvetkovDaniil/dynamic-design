@@ -10,10 +10,6 @@ const Info = ({ children, ...props }) => {
         className={classes.infoSection}
         style={{ borderTop: borderColor, borderBottom: borderColor }}
       >
-        <h3>Информация для студентов</h3>
-        <div className={classes.input}>
-          <p>{props.input}</p>
-        </div>
         <div className={classes.childrenSection}>{children}</div>
       </div>
     </div>

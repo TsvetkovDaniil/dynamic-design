@@ -4,7 +4,7 @@ import { rsData } from './rosdistantData'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import AppRouter from '../../components/AppRouter'
-import { rosRoutes } from './router/rosRoutes'
+import { rosdistantRoutes } from './router/rosdistantRoutes'
 import classes from './Rosdistant.module.css'
 import { useTheme } from '../../hooks/useTheme'
 
@@ -16,7 +16,7 @@ const Rosdistant = () => {
       <div className={classes.body}></div>
       <BrowserRouter>
         <Header refs={rsData.refs} />
-        <AppRouter routes={rosRoutes} />
+        <AppRouter routes={rosdistantRoutes} />
         <Footer
           refs={rsData.refs}
           name={rsData.name}
