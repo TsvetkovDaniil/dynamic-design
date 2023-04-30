@@ -1,0 +1,8 @@
+.institutePage {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.info {
+  padding: 20px;
+}
