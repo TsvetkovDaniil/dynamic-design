@@ -13,16 +13,19 @@ const Rosdistant = () => {
 
   return (
     <div className={classes.rosdistant}>
-      <div className={classes.body}></div>
-      <BrowserRouter>
-        <Header refs={rsData.refs} />
-        <AppRouter routes={rosdistantRoutes} />
-        <Footer
-          refs={rsData.refs}
-          name={rsData.name}
-          contacts={rsData.contacts}
-        />
-      </BrowserRouter>
+      <div className={classes.body}>
+        <BrowserRouter>
+          <Header refs={rsData.refs} />
+          <div className={classes.main}>
+            <AppRouter routes={rosdistantRoutes} />
+          </div>
+          <Footer
+            refs={rsData.refs}
+            name={rsData.name}
+            contacts={rsData.contacts}
+          />
+        </BrowserRouter>
+      </div>
     </div>
   )
 }
