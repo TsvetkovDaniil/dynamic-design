@@ -11,18 +11,24 @@
 .refsNav {
 }
 
-.btnsNav {
-  padding: 20px;
-}
-
-.btn {
+.ref {
   display: inline-block;
   text-decoration: none;
   color: var(--spec-text-color);
   padding: 30px;
 }
 
-.btn:hover {
+.ref:hover {
   background-color: var(--spec-hover-background-color);
   color: var(--spec-hover-text-color);
+}
+
+.btnsNav {
+  padding: 20px;
+  display: flex;
+  min-width: 250px;
+  justify-content: space-between;
+}
+
+.btn {
 }

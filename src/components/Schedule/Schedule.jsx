@@ -1,48 +1,51 @@
 import React from 'react'
 import classes from './Schedule.module.css'
+import { useTranslation } from 'react-i18next'
 
 const Schedule = (props) => {
+  const { t, i18n } = useTranslation()
+
   return (
     <table className={classes.schedule}>
       <tr className={classes.tableRow}>
         <th className={classes.tableHeader}>№</th>
-        <th className={classes.tableHeader}>Понедельник</th>
-        <th className={classes.tableHeader}>Вторник</th>
-        <th className={classes.tableHeader}>Среда</th>
-        <th className={classes.tableHeader}>Четверг</th>
-        <th className={classes.tableHeader}>Пятница</th>
-        <th className={classes.tableHeader}>Суббота</th>
-        <th className={classes.tableHeader}>Воскресенье</th>
+        <th className={classes.tableHeader}>{t("monday")}</th>
+        <th className={classes.tableHeader}>{t("tuesday")}</th>
+        <th className={classes.tableHeader}>{t("wednesday")}</th>
+        <th className={classes.tableHeader}>{t("thursday")}</th>
+        <th className={classes.tableHeader}>{t("friday")}</th>
+        <th className={classes.tableHeader}>{t("saturday")}</th>
+        <th className={classes.tableHeader}>{t("sunday")}</th>
       </tr>
       <tr>
         <td className={classes.tableData}>1</td>
-        <td className={classes.tableData}>Практика 1</td>
-        <td className={classes.tableData}>Леция 1</td>
-        <td className={classes.tableData}>Практика 2</td>
-        <td className={classes.tableData}>Леция 2</td>
-        <td className={classes.tableData}>Практика 3</td>
-        <td className={classes.tableData}>Леция 2</td>
-        <td className={classes.tableData}>Практика 3</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
       </tr>
       <tr>
         <td className={classes.tableData}>2</td>
-        <td className={classes.tableData}>Практика 1</td>
-        <td className={classes.tableData}>Леция 1</td>
-        <td className={classes.tableData}>Практика 2</td>
-        <td className={classes.tableData}>Леция 2</td>
-        <td className={classes.tableData}>Практика 3</td>
-        <td className={classes.tableData}>Леция 2</td>
-        <td className={classes.tableData}>Практика 3</td>
+        <td className={classes.tableData}>{t("practice")}</td>
+        <td className={classes.tableData}>{t("practice")}</td>
+        <td className={classes.tableData}>{t("practice")}</td>
+        <td className={classes.tableData}>{t("practice")}</td>
+        <td className={classes.tableData}>{t("practice")}</td>
+        <td className={classes.tableData}>{t("practice")}</td>
+        <td className={classes.tableData}>{t("practice")}</td>
       </tr>
       <tr>
         <td className={classes.tableData}>3</td>
-        <td className={classes.tableData}>Практика 1</td>
-        <td className={classes.tableData}>Леция 1</td>
-        <td className={classes.tableData}>Практика 2</td>
-        <td className={classes.tableData}>Леция 2</td>
-        <td className={classes.tableData}>Практика 3</td>
-        <td className={classes.tableData}>Леция 2</td>
-        <td className={classes.tableData}>Практика 3</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
+        <td className={classes.tableData}>{t("lecture")}</td>
       </tr>
     </table>
   )

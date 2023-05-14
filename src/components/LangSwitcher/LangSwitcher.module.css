@@ -1,0 +1,49 @@
+.langSwitcher {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 110px;
+  color: var(--spec-text-color);
+}
+
+.check {
+  position: relative;
+  width: 50px;
+  margin: 0px 4px 10px;
+}
+
+.check:before {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 25px;
+  background-color: var(--background-color);
+  border-radius: 25px;
+}
+
+.check:checked:before {
+  /* background: var(--button-active-color); */
+}
+
+.check:after {
+  position: absolute;
+  left: 0px;
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: var(--spec-background-color);
+  border: 2px solid var(--spec-border-color);
+  border-radius: 25px;
+  transition: 0.25s;
+  box-sizing: border-box;
+}
+
+.check:checked:after {
+  left: 25px;
+}
+
+.ru {
+}
+
+.en {
+}

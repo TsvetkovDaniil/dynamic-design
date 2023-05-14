@@ -2,13 +2,16 @@ import React from 'react'
 import Info from '../../../../components/Info/Info'
 import { rsData } from '../../rosdistantData'
 import classes from './Main.module.css'
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
+  const { t, i18n } = useTranslation()
+
   return (
     <div>
       <Info name={rsData.name}>
         <section className={classes.infoSection}>
-          <h3 className={classes.header}>Информация для студентов</h3>
+          <h3 className={classes.header}>{t('info')}</h3>
           <p className={classes.info}>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi sed,
             vel nobis similique doloribus culpa possimus inventore excepturi?

@@ -1,0 +1,37 @@
+{
+  "portal": "Educational Portal TSU",
+  "news": "News",
+  "about": "About us",
+  "applicants": "For Applicants",
+  "students": "For Students",
+  "science": "Scince and Innovation",
+  "contacts": "Contacts",
+  "media": "Media",
+  "changeTheme": "Change theme",
+
+  "name": "Educational Portal TSU",
+
+  "phone": "Phone",
+  "email": "Email",
+  "website": "Website",
+
+  "lightTheme": "Light Theme",
+  "darkTheme": "Dark Theme",
+  "darkBlueTheme": "Dark Blue Theme",
+  "darkRedTheme": "Dark Red Theme",
+  "rosTheme": "Rosdistant",
+  "portalTheme": "Educational Portal TSU",
+
+  "card1": "ARCHITECTURAL AND CONSTRUCTION INSTITUTE",
+  "card2": "HUMANITARIAN-PEDAGOGICAL INSTITUTE",
+  "card3": "INSTITUTE OF ENGINEERING",
+  "card4": "INSTITUTE OF FINE AND DECORATIVE APPLIED ARTS",
+  "card5": "INSTITUTE OF MATHEMATICS, PHYSICS AND INFORMATION TECHNOLOGIES",
+  "card6": "INSTITUTE OF LAW",
+  "card7": "INSTITUTE OF CHEMISTRY AND ENERGY",
+  "card8": "INSTITUTE OF PHYSICAL CULTURE AND SPORT",
+  "card9": "INSTITUTE OF FINANCE, ECONOMICS AND MANAGEMENT",
+  "card10": "INSTITUTE OF ENGINEERING AND ENVIRONMENTAL SAFETY",
+  "card11": "MILITARY TRAINING CENTER",
+  "card12": "INSTITUTE OF ADDITIONAL EDUCATION \"ZHIGULEVSKAYA VALLEY\""
+}

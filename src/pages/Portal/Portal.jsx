@@ -8,6 +8,7 @@ import { portalData } from './portalData'
 import { portalRoutes } from './router/portalRoutes'
 import { useTheme } from '../../hooks/useTheme'
 
+
 const Portal = () => {
   useTheme('portal')
 
