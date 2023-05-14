@@ -1,5 +1,6 @@
 {
   "portal": "Educational Portal TSU",
+  "rosdistant": "Rosdistant",
   "news": "News",
   "about": "About us",
   "applicants": "For Applicants",
@@ -10,6 +11,8 @@
   "changeTheme": "Change theme",
 
   "name": "Educational Portal TSU",
+
+  "services": "Services",
 
   "phone": "Phone",
   "email": "Email",

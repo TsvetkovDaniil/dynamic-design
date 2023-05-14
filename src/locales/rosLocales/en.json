@@ -1,4 +1,5 @@
 {
+  "portal": "Educational Portal TSU",
   "rosdistant": "Rosidstant",
   "courses": "My courses",
   "tasks": "My tasks",
@@ -8,6 +9,8 @@
   "schedule": "My schedule",
 
   "name": "DLS Rosdistant",
+
+  "services": "Services",
 
   "info": "Information for students",
 

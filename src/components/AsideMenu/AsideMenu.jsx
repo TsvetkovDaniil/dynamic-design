@@ -1,21 +1,24 @@
 import React from 'react'
 import classes from './AsideMenu.module.css'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const AsideMenu = () => {
+  const { t, i18n } = useTranslation()
+
   return (
     <aside className={classes.asideMenu}>
       <nav className={classes.nav}>
         <ul className={classes.list}>
-          <h3 className={classes.header}>Сервисы</h3>
+          <h3 className={classes.header}>{t('services')}</h3>
           <li className={classes.listItem}>
-            <Link className={classes.ref} to="http://portal.local:3000">
-              Образовательный портал
+            <Link className={classes.ref} to='http://portal.local:3000'>
+              {t('portal')}
             </Link>
           </li>
           <li className={classes.listItem}>
-            <Link className={classes.ref} to="http://rosdistant.local:3000">
-              Росдистант
+            <Link className={classes.ref} to='http://rosdistant.local:3000'>
+              {t('rosdistant')}
             </Link>
           </li>
         </ul>
