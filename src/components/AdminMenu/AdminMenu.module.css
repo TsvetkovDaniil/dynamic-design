@@ -1,0 +1,24 @@
+.adminMenu {
+  color: var(--text-color);
+  padding: 10px;
+}
+
+.interface {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.separateBlock {
+  border: 1px solid black;
+  padding: 6px;
+}
+
+.editor {
+  display: flex;
+}
+
+.selector {
+  padding: 4px;
+  font-weight: bold;
+}
