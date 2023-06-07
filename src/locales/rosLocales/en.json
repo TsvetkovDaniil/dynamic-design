@@ -1,12 +1,21 @@
 {
   "portal": "Educational Portal TSU",
-  "rosdistant": "Rosidstant",
+  "rosdistant": "Rosdistant",
   "courses": "My courses",
   "tasks": "My tasks",
   "plan": "Studying plan",
   "book": "Record book",
-  "changeTheme": "Change theme",
   "schedule": "My schedule",
+  "changeTheme": "Change theme",
+  "exit": "Exit",
+
+  "errorMessage": "The password must be at least 6 characters long and contain at least one uppercase letter, one lowercase letter, and one number.",
+
+  "login": "Log in the system",
+  "enterLogin": "Enter login",
+  "enterPassword": "Enter password",
+
+  "enter": "Log in",
 
   "name": "DLS Rosdistant",
 

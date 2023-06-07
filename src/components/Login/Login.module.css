@@ -1,0 +1,32 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-color);
+  padding: 20px;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 400px;
+}
+
+.input {
+  height: 20px;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+::placeholder {
+  color: var(--text-color);
+}

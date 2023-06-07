@@ -9,6 +9,15 @@
   "contacts": "Contacts",
   "media": "Media",
   "changeTheme": "Change theme",
+  "exit": "Exit",
+
+  "errorMessage": "The password must be at least 6 characters long and contain at least one uppercase letter, one lowercase letter, and one number.",
+
+  "login": "Enter the system",
+  "enterLogin": "Enter login",
+  "enterPassword": "Enter password",
+
+  "enter": "Log in",
 
   "name": "Educational Portal TSU",
 

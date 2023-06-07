@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import classes from './Header.module.css'
 import { Link, useNavigate } from 'react-router-dom'
 import Button from '../UI/button/Button'
 import { useTranslation } from 'react-i18next'
 import LangSwitcher from '../LangSwitcher/LangSwitcher'
+import { AuthContext } from '../../context'
 
 const Header = (props) => {
   const navigate = useNavigate()
+
   const { t, i18n } = useTranslation()
 
+  const { isAuth, setIsAuth } = useContext(AuthContext)
+
+  const logout = () => {
+    setIsAuth(false)
+    localStorage.removeItem('auth')
+  }
   return (
     <header className={classes.navbar}>
       <nav className={classes.navbarInner}>
@@ -19,16 +27,16 @@ const Header = (props) => {
             </Link>
           ))}
         </ul>
+        <LangSwitcher className={classes.switcher} />
         <ul className={classes.btnsNav}>
           <Button
-            className={classes.btn}
             onClick={() => {
               navigate('/theme')
             }}
           >
             {t('changeTheme')}
           </Button>
-          <LangSwitcher className={classes.btn} />
+          <Button onClick={logout}>{t('exit')}</Button>
         </ul>
       </nav>
     </header>
