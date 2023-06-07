@@ -12,12 +12,12 @@ const AsideMenu = () => {
         <ul className={classes.list}>
           <h3 className={classes.header}>{t('services')}</h3>
           <li className={classes.listItem}>
-            <Link className={classes.ref} to='http://portal.local:3000'>
+            <Link className={classes.ref} to='http://portal.localhost:3000'>
               {t('portal')}
             </Link>
           </li>
           <li className={classes.listItem}>
-            <Link className={classes.ref} to='http://rosdistant.local:3000'>
+            <Link className={classes.ref} to='http://rosdistant.localhost:3000'>
               {t('rosdistant')}
             </Link>
           </li>

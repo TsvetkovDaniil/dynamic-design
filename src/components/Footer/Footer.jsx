@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './Footer.module.css'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import Weather from '../Weather/Weather'
 
 const Footer = (props) => {
   const numberOfColumns = Math.ceil(props.refs.length / 3)
@@ -27,6 +28,9 @@ const Footer = (props) => {
           </ul>
         ))}
       </div>
+
+      <Weather />
+
       <div className={classes.contacts}>
         <div>
           <p>{t(props.contacts.phoneTrans)}</p>

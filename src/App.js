@@ -8,9 +8,9 @@ import { useEffect, useState } from 'react'
 function App() {
   const domain = window.location.hostname
 
-  if (domain === 'localhost' || domain === 'rosdistant.local') {
+  if (domain === 'localhost' || domain === 'rosdistant.localhost') {
     initRosTranslator()
-  } else if (domain === 'portal.local') {
+  } else if (domain === 'portal.localhost') {
     initPortalTranslator()
   }
 
@@ -30,9 +30,9 @@ function App() {
           setIsAuth,
         }}
       >
-        {domain === 'rosdistant.local' ? (
+        {domain === 'rosdistant.localhost' ? (
           <Rosdistant />
-        ) : domain === 'portal.local' ? (
+        ) : domain === 'portal.localhost' ? (
           <Portal />
         ) : (
           <Rosdistant />

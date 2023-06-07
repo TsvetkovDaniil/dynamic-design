@@ -12,6 +12,7 @@ import classes from './Rosdistant.module.css'
 import { useTheme } from '../../hooks/useTheme'
 import Login from '../../components/Login/Login'
 import { AuthContext } from '../../context'
+import AdminMenu from '../../components/AdminMenu/AdminMenu'
 
 const Rosdistant = () => {
   useTheme('rosdistant')
